@@ -1,0 +1,20 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .card{
+    background: #E5DCC3;
+    margin: 5px;
+    padding: 7px;
+    border: 2px solid #9A9483;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.contenedor img{
+    border-radius: 15px;
+}
